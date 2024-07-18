@@ -1,0 +1,22 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "Proyecto con javascript con typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hernan97carp/Javascript_Typescript.git"
+  },
+  "author": "Hernan Esquivel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hernan97carp/Javascript_Typescript/issues"
+  },
+  "homepage": "https://github.com/hernan97carp/Javascript_Typescript#readme",
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
+}
