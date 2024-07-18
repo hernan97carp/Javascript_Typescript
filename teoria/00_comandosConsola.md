@@ -1,1 +1,2 @@
-npx tsc --watch para vigilar cambios
+para vigilar cambios
+npx tsc --watch 

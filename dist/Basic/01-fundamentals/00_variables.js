@@ -8,7 +8,9 @@ const my_float_variable = 4.2;
 // Boolean variable
 const isActive = true;
 // Array of numbers
-const numbers = [1, 2, 3];
+let numbers = [1, 2, 3];
+//or
+let list_numbers = [1, 2, 3];
 // Null variable
 let n = null;
 // Undefined variable

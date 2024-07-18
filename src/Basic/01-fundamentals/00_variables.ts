@@ -11,7 +11,9 @@ const my_float_variable: number = 4.2;
 const isActive: boolean = true;
 
 // Array of numbers
-const numbers: number[] = [1, 2, 3];
+let numbers: number[] = [1, 2, 3];
+//or
+let list_numbers: Array<number> = [1, 2, 3];
 
 // Null variable
 let n: null = null;
