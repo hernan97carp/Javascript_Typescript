@@ -1,4 +1,6 @@
 "use strict";
+//Interface y Función Genérica
+//Crear una interfaz Printable y una función genérica que imprima los elementos de un array que implementen esta interfaz.
 // Función genérica `printAll`
 function printAll(arr) {
     // Explicación de la función:
@@ -26,6 +28,5 @@ class Invoice {
 // Creación de arrays de objetos de las clases `Documents` e `Invoice`
 let documents = [new Documents(), new Documents()];
 let invoices = [new Invoice(), new Invoice()];
-// Llamadas a la función `printAll` con los arrays creados
 printAll(documents); // Llama a `print()` en cada objeto de `documents`, lo que imprime "Printing document..." varias veces.
 printAll(invoices); // Llama a `print()` en cada objeto de `invoices`, lo que imprime "Printing invoice..." varias veces.
