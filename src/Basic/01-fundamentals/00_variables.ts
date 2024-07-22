@@ -56,14 +56,17 @@ userId = "ABC123";
 
 // Interface for a user object
 interface User {
+  readonly _id: number;
   name: string;
   age: number;
 }
 
 // User object following the User interface
 const user: User = {
+  _id: 4,
   name: "Alice",
   age: 25
+  
 };
 
 

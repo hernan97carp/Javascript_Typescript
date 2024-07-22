@@ -40,6 +40,7 @@ let userId = 101;
 userId = "ABC123";
 // User object following the User interface
 const user = {
+    _id: 4,
     name: "Alice",
     age: 25
 };
